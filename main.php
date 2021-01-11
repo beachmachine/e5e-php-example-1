@@ -2,8 +2,8 @@
 require_once("./functions.php");
 
 function entrypoint($event, $context) {
-    $a = (int)$event['data']['a'];
-    $b = (int)$event['data']['b'];
+    $a = 5;
+    $b = 7;
 
     echo "Hello from my git repository!\n";
     echo "Calculating with numbers '$a' and '$b'.\n";
