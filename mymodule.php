@@ -13,7 +13,7 @@ function myfunction($event, $context)
 
     $ipRemoteRequest = curl_init();
     curl_setopt($ipRemoteRequest, CURLOPT_CUSTOMREQUEST, "GET");
-    curl_setopt($ipRemoteRequest, CURLOPT_URL, "https://ip.anexia.at");
+    curl_setopt($ipRemoteRequest, CURLOPT_URL, "https://ip.anexia.com");
     curl_setopt($ipRemoteRequest, CURLOPT_HTTPHEADER, [
         "user-agent: curl/7.68.0",
     ]);
